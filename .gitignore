@@ -2,3 +2,5 @@ noblox.js
 /src/models/Products.ts
 .vscode
 .DS_Store
+.env
+index.ts

@@ -23,28 +23,27 @@ export const apis = {
   Games : "https://games.roblox.com/v1/",
   Chat: "https://chat.roblox.com/v2/",
   Avatar: "https://avatar.roblox.com/v1/",
+  PremiumFeatures: "https://premiumfeatures.roblox.com/v1/",
 }
 
 export const endpoints = {
-  v1: "/v1",
-  v2: "/v2",
-  users: "/users",
-  games: "/games",
-  avatar: "/avatar",
-  outfits: "/outfits",
-  badges: "/badges",
-  assets: "/assets",
-  notifications: "/notificiations",
-  push_notifications: "/push-notifications",
-  stream_notifications: "/stream-notifications",
-  friends: "/friends",
-  metadata: "/metadata",
-  my: "/my",
-  user: "/user",
-  
+  v1: "v1/",
+  v2: "v2/",
+  users: "users/",
+  games: "games/",
+  avatar: "avatar/",
+  outfits: "outfits/",
+  badges: "badges/",
+  assets: "assets/",
+  notifications: "notificiations/",
+  push_notifications: "push-notifications/",
+  stream_notifications: "stream-notifications/",
+  friends: "friends/",
+  metadata: "metadata/",
+  my: "my/",
+  user: "user/",
+
 }
 
-export const headers = {
-  Cookie: ''
-}
+
 
