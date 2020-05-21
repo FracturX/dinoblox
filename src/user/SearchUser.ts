@@ -10,7 +10,6 @@ export async function searchUser(token: string, username: string): Promise<UserO
       Cookie: `.ROBLOSECURITY=${token}` // where token is the |_WARNINGASDAKSLDLASK|_TOKEN
     },
   });
-  console.log(JSON.stringify(await response.json()))
 
 
   const user = await response.json() as UserObject
